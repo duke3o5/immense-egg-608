@@ -1,0 +1,22 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topNav-left{
+
+}
+
+
+
+.topNav-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#Nav-Text{
+    color: rgb(104, 104, 104);
+    align-items: center;
+    margin-right: 5px;
+}
