@@ -537,8 +537,66 @@
       "id": 65
     }
   ],
+  "latestAdded": [
+    {
+      "image": "https://teja10.kuikr.com/i4/20230120/Order-now-iPhone-12-with-accessories-and-Bill-Box-VB201705171774173-ak_LWBP1139723964-1674211328.png",
+      "title": "iPhone 12",
+      "description": "New Iphone 12",
+      "price": "12000",
+      "category": "SmartPhone",
+      "id": 1
+    },
+    {
+      "image": "https://teja8.kuikr.com/i6/20230120/IPhone-6-16GB-camera-fingerprint-everything-everything-is-absolutely-working-VB201705171774173-ak_LWBP378309452-1674227692.png",
+      "title": "iPhone 6",
+      "description": "Old iPhone",
+      "price": "6000",
+      "category": "SmartPhone",
+      "id": 2
+    },
+    {
+      "image": "https://teja10.kuikr.com/i6/20230120/IPAD-8TH-GENERATION-32GB-WIFI-CELLULAR-VB201705171774173-ak_LWBP688779668-1674227019.jpeg",
+      "title": "iPad 8th gen",
+      "description": "Good Condition",
+      "price": "4000",
+      "category": "iPad",
+      "id": 3
+    },
+    {
+      "image": "https://teja8.kuikr.com/i4/20230116/Contact-8800-986080-Apple-iPhone-13-Pro-Max-Thailand-imported-product---Cash-on-delivery-available-VB201705171774173-ak_LWBP2140413393-1673860722.png",
+      "title": "iPhone 13",
+      "description": "New Like",
+      "price": "40000",
+      "category": "SmartPhone",
+      "id": 4
+    },
+    {
+      "image": "https://teja9.kuikr.com/i4/20230120/-93370--42102---sofa-set-for-sale-in-good-condition-VB201705171774173-ak_LWBP1117493808-1674219065.png",
+      "title": "Sofa Set",
+      "description": "Good Condtion",
+      "price": "15000",
+      "category": "Furniture",
+      "id": 5
+    }
+  ],
   "login": [
-   
+    {
+      "userName": "duke305",
+      "email": "eve.holt@reqres.in",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "userName": "duke305",
+      "email": "deepakbhardwaj0805@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "email": "eve.holt@reqres.in",
+      "password": "12345",
+      "id": 4
+    }
   ],
   "collection": [
     {

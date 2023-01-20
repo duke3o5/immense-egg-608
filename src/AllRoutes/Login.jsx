@@ -14,15 +14,55 @@ import {
     Center,
 } from '@chakra-ui/react';
 import { SmallCloseIcon } from '@chakra-ui/icons';
+import { useState,useReducer } from 'react';
 
+
+const initstate={
+    email: '',
+    password: ''
+}
+
+const reducer = (state, action) => {
+    switch (action.type) {
+        case 'email':
+            return { ...state, email: action.payload }
+
+        case 'password':
+            return { ...state, password: action.payload }
+
+        default:
+            return state
+    }
+}
 
 
     export default function Login() {
-        // const [ans, dispatch] = useReducer(reducer, initstate);
-        // const [acess, setAcess] = useState(false);
+        const [ans, dispatch] = useReducer(reducer, initstate);
+        const [acess, setAcess] = useState(false);
+        const [token, setToken]= useState('');
+        const [data , setData] = useState({});
 
-        const handleLogin=()=>{
+        const handleLogin=(e)=>{
+            e.preventDefault();
+            setData(ans);
+            login(ans);
+        }
 
+        const login= async(submittedData)=>{
+            const url = `http://localhost:8080/login`;
+            let login_request = await fetch(url, {
+                method: "POST",
+                body: JSON.stringify(submittedData),
+                headers: {
+                  "Content-Type": "application/json",
+                }
+              })
+              if (login_request.ok === true) {
+                let token = await login_request.json();
+                setAcess(true);
+                setToken(token);
+                console.log(token);
+              }
         }
 
 
@@ -53,6 +93,7 @@ import { SmallCloseIcon } from '@chakra-ui/icons';
                             placeholder="your-email@example.com"
                             _placeholder={{ color: 'gray.500' }}
                             type="email"
+                            value={ans.email} onChange={(e)=> dispatch({type:'email', payload: e.target.value})}
                         />
                     </FormControl>
 
@@ -62,6 +103,7 @@ import { SmallCloseIcon } from '@chakra-ui/icons';
                             placeholder="password"
                             _placeholder={{ color: 'gray.500' }}
                             type="password"
+                            value={ans.password} onChange={(e)=> dispatch({type:'password', payload: e.target.value})}
                         />
                     </FormControl>
 
@@ -72,8 +114,8 @@ import { SmallCloseIcon } from '@chakra-ui/icons';
                             w="full"
                             _hover={{
                                 bg: 'blue.500',
-                            }}>
-                            Guest Login
+                            }} as='a' href='/Sign-up'>
+                            Create Account
                         </Button>
                         <Button
                             bg={'green.500'}
@@ -81,7 +123,8 @@ import { SmallCloseIcon } from '@chakra-ui/icons';
                             w="full"
                             _hover={{
                                 bg: 'blue.500',
-                            }}>
+                            }}
+                            type='submit'>
                             Login
                         </Button>
                     </Stack>
