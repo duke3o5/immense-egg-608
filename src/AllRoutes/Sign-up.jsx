@@ -53,10 +53,11 @@ export default function SignUp() {
         dispatch({ type: 'reset' });
         setAcess(true);
         console.log(ans);
+        login(ans);
     }
 
     const login=(submittedData)=>{
-        axios.post('http://localhost:3000/login', submittedData).then((res)=>console.log(res));
+        axios.post('http://localhost:8080/login', submittedData).then((res)=>console.log(res));
     }
 
     // console.log(ans)
@@ -120,8 +121,8 @@ export default function SignUp() {
                             w="full"
                             _hover={{
                                 bg: 'red.500',
-                            }}>
-                            Cancel
+                            }} as='a' href='/Login'>
+                            Login
                         </Button>
                         <Button
                             bg={'blue.400'}
