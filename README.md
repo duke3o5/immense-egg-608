@@ -72,3 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ![Alt text](src/1.png)
 
 // logo: ['https://www.linkpicture.com/q/InShot_20230119_121832513.jpg'];
+
+// [Client ID :  'sUhdOu2fu2ykPCdhgB3zlL2KRjRcyb24']
+
+// Domain ID : ['dev-uodltcm0ls1s557f.us.auth0.com']

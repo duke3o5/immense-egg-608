@@ -29,13 +29,15 @@ import {
 import { MoonIcon, SunIcon, SearchIcon, ChevronDownIcon } from '@chakra-ui/icons';
 import Lazyload from './Carousel';
 import PostAdd from './PostAdd';
-
+import { useAuth0 } from "@auth0/auth0-react";
 
 
 export default function Navbar() {
     const { colorMode, toggleColorMode } = useColorMode();
     const { isOpen, onOpen, onClose } = useDisclosure();
     const [isPost , setisPost]= useState(false);
+    const { loginWithRedirect, logout  } = useAuth0();
+    const { user, isAuthenticated, isLoading } = useAuth0();
 
 const postItemForm=()=>{
     setisPost(true);
@@ -59,10 +61,11 @@ const postItemForm=()=>{
                         </InputGroup>
                     </Box>
                     <Box pl="30px">
-                        <Button width="105px" height="30px" border={"1px solid grey"} as='a' href='/Login'>
+                        {/* <Button width="105px" height="30px" border={"1px solid grey"} as='a' href='/Login'>
                             <Text fontSize={"12px"}>
                                 Login/Register
-                            </Text></Button>
+                            </Text></Button> */}
+                            {isAuthenticated ? <Button>{user.name}</Button> : <Button onClick={() => loginWithRedirect()}>Log In</Button>}
 
                     </Box>
 
@@ -94,13 +97,19 @@ const postItemForm=()=>{
                                     </Center>
                                     <br />
                                     <Center>
-                                        <p>Username</p>
+                                        {isAuthenticated && <p>{user.name}</p>}
                                     </Center>
                                     <br />
                                     <MenuDivider />
                                     <MenuItem>Your Servers</MenuItem>
                                     <MenuItem>Account Settings</MenuItem>
-                                    <MenuItem>Logout</MenuItem>
+                                    
+                                    {
+                                        isAuthenticated ? <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+                                        Log Out
+                                      </button> :  <button onClick={() => loginWithRedirect()}>Log In</button>
+                                    }
+                                    {/* <button onClick={() => loginWithRedirect()}>Log In</button>; */}
                                 </MenuList>
 
                             </Menu>
@@ -108,10 +117,11 @@ const postItemForm=()=>{
                         </Stack>
 
                     </Flex>
-                    <Button bg='yellow' width="60px" height="30px" border={"1px solid grey"} as='a' href='/PostAdd'>
-                        <Text fontSize={"12px"}>
+                    {/* {isAuthenticated && <p>Hello {user.name}</p>} */}
+                    <Button bg='yellow.400'  as='a' href='/PostAdd'>
+                        
                             Post Add
-                        </Text>
+                        
                         </Button>
                 </Flex>
 

@@ -7,13 +7,15 @@ import Login from './AllRoutes/Login';
 import PostAdd from './AllRoutes/HomeComponents/PostAdd';
 import AllRoutes from './AllRoutes/AllRoutes';
 import Home from './AllRoutes/Home';
+import Footer from './AllRoutes/Footer';
 
 
 function App() {
   return (
     <div className="App">
-     
+     <Navbar/>
       <AllRoutes/>
+      <Footer/>
     </div>
   );
 }

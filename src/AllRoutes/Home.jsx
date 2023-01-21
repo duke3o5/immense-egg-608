@@ -1,6 +1,7 @@
 import LandingContent from "./HomeComponents/LandingContent";
 import Navbar from "./HomeComponents/Navbar";
 import LazyLoad from '../AllRoutes/HomeComponents/Carousel'
+import Footer from "./Footer";
 
 
 export default function (){
@@ -8,10 +9,10 @@ export default function (){
 
     return (
         <>
-        <Navbar/>
+        {/* <Navbar/> */}
         <LazyLoad />
         <LandingContent/>
-        
+        {/* <Footer/> */}
         </>
     )
 }
