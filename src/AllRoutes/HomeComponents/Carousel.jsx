@@ -30,7 +30,7 @@ export default class LazyLoad extends Component {
     };
     return (
       <div>
-        <Heading>Most Popular Products</Heading>
+        <Heading style={{marginBottom: '30px', marginTop:'10px'}}>Most Popular Products</Heading>
         <Slider {...settings}>
           <div className="sliderDiv">
             <img className="sliderImage" src="https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/dining-tables.png" alt="img"/>

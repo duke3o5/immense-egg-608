@@ -35,7 +35,7 @@
     cursor: pointer;
     -ms-transform: scale(1.2);
     -webkit-transform: scale(1.2);
-    transform: scale(1.02)
+    transform: scale(0.9)
 }
 
 .productImage{
@@ -69,8 +69,6 @@
     margin-bottom: 40px;
     margin-top: 20px;
     transition: transform .5s;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    transform: scale(1.01);
 }
 
 .homestylesAdd:hover{
@@ -86,6 +84,14 @@
     border-radius: 1%;
     padding: 5px;
     /* border: .3px solid grey; */
+    transition: transform .5s;
+}
+
+.hlDiv:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(0.9)
 }
 
 .hlImage{
@@ -102,4 +108,15 @@
     margin-right: 63px;
     margin-top: -30px;
     margin-bottom: 30px;
+}
+
+.knowMoreBtn{
+    transition: transform .5s;
+}
+
+.knowMoreBtn:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(0.8)
 }

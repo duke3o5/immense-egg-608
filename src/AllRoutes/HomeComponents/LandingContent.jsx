@@ -15,12 +15,14 @@ import { useEffect, useState } from "react"
 import axios from 'axios';
 import '../Styles/LandingContent.css';
 import UserFeedback from './UserFeedback';
+import { savData } from '../../LocalStorage';
 
 export default function LandingContent() {
     const [post, setPost] = useState([]);
     const [hl, setHl] = useState([]);
     const [page, setPage] = useState(6);
     const [limit, setLimit] = useState(4);
+    // const [view, setView]= useState({});
 
     const getData = () => {
         axios.get(`http://localhost:8080/latestAdded?_limit=${limit}`).then((res) => setPost(res.data));
@@ -36,6 +38,7 @@ export default function LandingContent() {
     }, [page, limit]);
 
 
+
     return (
         <>
             <Heading style={{marginTop: '30px'}}>Latest Added prdoucts</Heading>
@@ -47,7 +50,7 @@ export default function LandingContent() {
                         <hr />
                         <div className="innerCard">
                             <p> Rs: {el.price}</p>
-                            <Button>Know More</Button>
+                            <Button className='knowMoreBtn' onClick={()=>savData('viewProduct',el)} as='a' href='ProductPage'>Know More</Button>
                         </div>
                     </div>
                 ))}
@@ -69,7 +72,7 @@ export default function LandingContent() {
                         <hr />
                         <div className="innerCards">
                             <p> Rs: {el.price}</p>
-                            <Button>Know More</Button>
+                            <Button className='knowMoreBtn' onClick={()=>savData('viewProduct',el)} as='a' href='ProductPage'>Know More</Button>
                         </div>
                     </div>
                 ))}

@@ -4,6 +4,7 @@ import PostAdd from './HomeComponents/PostAdd';
 import Home from './Home';
 import SignUp from './Sign-up';
 import Login from './Login';
+import Viewproduct from '../AllRoutes/ProductPage';
 
 
 
@@ -16,6 +17,7 @@ export default function AllRoutes(){
             <Route path='/Login' element={<Login/>}/>
             <Route path='/Sign-up' element={<SignUp/>}/>
             <Route path='/LandingContent' element={<LandingContent/>}/>
+            <Route path='/ProductPage' element={<Viewproduct/>} />
         </Routes>
         </>
     )
