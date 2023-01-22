@@ -52,7 +52,7 @@ const postItemForm=()=>{
             <Box bg={useColorModeValue('white.100', 'gray.900')} px={4}>
                 <Flex h={16} pl="190px" w={1090} alignItems={'center'} justifyContent={'space-around'}>
                     <Box as='a' href='/'>
-                        <img  width="100px" style={{ borderRadius: '10%' }} src='https://www.linkpicture.com/q/InShot_20230119_121832513.jpg' alt='logo' />
+                        <img  width="90px" src='https://i.postimg.cc/YCNCjszS/In-Shot-20230122-004547522.png' alt='logo' />
                     </Box>
                     <Box>
                         <InputGroup>

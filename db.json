@@ -577,6 +577,14 @@
       "price": "15000",
       "category": "Furniture",
       "id": 5
+    },
+    {
+      "image": "https://teja9.kuikr.com/i5/20221121/3-2-seater-Sofa-for-urgent-sale-in-Wadala-VB201705171774173-ak_LWBP608745409-1669046225.jpeg",
+      "title": "3+2 Seater Sofa",
+      "description": "Sofa Set used ",
+      "price": "12999",
+      "category": "Furniture",
+      "id": 6
     }
   ],
   "login": [
@@ -1619,226 +1627,44 @@
   ],
   "Home&Lifestyle": [
     {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6880475736935952384/16504/goods_thumb_220-v9/28537de0e928.jpg",
-      "category": "Appliance",
-      "price": 206,
-      "description": "48% OFF XIAOMI Dreame D9 Robot Vacuum Cleaner For Home 3000Pa Strong Suction Sweeping Washing Mopping APP Control Smart Planned Home Cleaner XIAOMI Dreame D9 Robot Vacuum Cleaner For Home",
-      "id": 2
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6882688590640508928/16448/goods_thumb_220-v3/6f9c892c7ec6.jpg",
-      "category": "Appliance",
-      "price": 29,
-      "description": " 30% OFF 5in1 CO2 Meter Digital Temperature Humidity Tester Carbon Dioxide TVOC HCHO Detector Air Quality Monitor co2 sensor Monitor 5in1 CO2 Meter Digital Temperature Humidity Tester",
-      "id": 3
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6880475736935952384/16577/goods_thumb_220-v3/cbbc593a7000.jpg",
-      "category": "Appliance",
-      "price": 269,
-      "description": "XIAOMI Mijia 1S Robotic Vacuum Cleaner Intelligent",
-      "id": 4
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/store/6866331803104505856/16509/goods_thumb_220-v3/0cd2369f8f5d.jpg",
-      "category": "Appliance",
-      "price": "35",
-      "description": "Xiaomi Hanging Neck Fan Portable Cooling Fan USB Leafless 360 Degree Neckband Fan 78 Surround Air Outlets 4000Mah Rechargeable Xiaomi Hanging Neck Fan Portable Cooling Fan USB",
-      "id": 5
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/store/6866331803104505856/16494/goods_thumb_220-v3/30ff8295bfd7.jpg",
-      "category": "Appliance",
-      "price": 50,
-      "description": "https://gloimg.gbtcdn.com/soa/gb/store/6866331803104505856/16494/goods_thumb_220-v3/30ff8295bfd7.jpg",
-      "id": 6
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6870745450383863808/16685/goods_thumb_220-v1/fe30f19af23e.jpg",
-      "category": "Appliance",
-      "price": 149,
-      "description": " 47% OFF KYVOL D3 ROBOT ASPIRATOR WITH APP WIFI 2600 mAh ASPIRATION 1800PA SILENT KYVOL D3 ROBOT ASPIRATOR WITH APP WIFI 2600 mAh",
-      "id": 7
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6870745450383863808/16687/goods_thumb_220-v1/df4537f47869.jpg",
-      "category": "Appliance",
-      "price": 255,
-      "description": "Xiaomi Shunzao Z11Max Smart Handheld Wireless",
-      "id": 8
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6878391336429613056/16516/goods_thumb_220-v1/cf602f567dea.jpg",
-      "category": "Appliance",
-      "price": 38,
-      "description": "Xiaomi Pinlo Electric Bread Toaster Stainless Steel Bread",
-      "id": 9
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/store/6866331803104505856/16497/goods_thumb_220-v5/a0070c4b6121.jpg",
-      "category": "Appliance",
-      "price": 23,
-      "description": "saengQ Electric Aroma Diffuser Air Humidifier 300ML",
-      "id": 10
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6507287161137004544/16387/goods_thumb_220-v1/72f7864c82fd.jpg",
-      "category": "Appliance",
-      "price": 39,
-      "description": "Multifunctional Sweeping robot vacuum cleaner automatic smart sweeping robot 3-in-1 dry wet floor cleaner machine Rechargeable Multifunctional Sweeping robot vacuum cleaner",
-      "id": 11
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6878391336429613056/16446/goods_thumb_220-v1/4d2c11b0979f.jpg",
-      "category": "Appliance",
-      "price": 59,
-      "description": "Xiaomi Mijia Electric Kettle Pro Smart Constant Temperature",
-      "id": 12
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/16190/goods_thumb_220-v1/fa9cbe605a41.jpg",
-      "category": "Appliance",
-      "price": 699,
-      "description": "2021 newest Roborock S7 robot vacuum cleaner for",
-      "id": 13
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/16093/goods_thumb_220-v1/22ca1d9a2067.jpg",
-      "category": "Appliance",
-      "price": 49,
-      "description": "3-In-1 Multifunctional Auto Smart Robot Floor Cleaner Rechargeable Dry Wet Mop Sweeping Vacuum Cleaner Strong Suction Home Clean 3-In-1 Multifunctional Auto Smart Robot Floor Cleaner",
-      "id": 14
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/15893/goods_thumb_220-v1/b5c4db74e404.jpg",
-      "category": "Appliance",
-      "price": 209,
-      "description": "ZQ610 Steam Cleaner Electric Handheld Steam Mop Floor Cleaner ZQ610 Steam Cleaner Electric Handheld Steam Mop Floor",
-      "id": 15
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6878391336429613056/16459/goods_thumb_220-v1/129bff236ab4.jpg",
-      "category": "Appliance",
-      "price": 20,
-      "description": "Xiaomi Mijia Smart Mosquito Repellent Killer 2 Household",
-      "id": 16
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/16014/goods_thumb_220-v7/ad14fc7cf1cd.jpg",
-      "category": "Appliance",
-      "price": 145,
-      "description": "Global Version Xiaomi Mi Air Purifier 2H Sterilizer Addition Formaldehyde Wash Cleaning Intelligent Household Air Virus Global Version Xiaomi Mi Air Purifier 2H Sterilizer Addition",
-      "id": 17
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6880475736935952384/16419/goods_thumb_220-v11/ec57036f640d.jpg",
-      "category": "Appliance",
-      "price": 219,
-      "description": " 63% OFF Xiaomi Mijia 2C Robot Vacuum Cleaner Mop for Home 3000PA Cyclone Suction Wet Mopping Floor Washing Cleaner Planned Path WiFi APP Xiaomi Mijia 2C Robot Vacuum Cleaner Mop for Home",
-      "id": 18
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6878400698325856256/16418/goods_thumb_220-v3/ccd5f53f6d5f.jpg",
-      "category": "Appliance",
-      "price": 51,
-      "description": "New Xiaomi Mijia Handheld Vacuum Cleaner Portable",
-      "id": 19
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6507287161137004544/16389/goods_thumb_220-v2/54f2ad3ae863.jpg",
-      "category": "Appliance",
-      "price": 15,
-      "description": "Mute Mosquito Killer Lamp Radiationless smart Mosquito",
-      "id": 20
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6878391336429613056/16460/goods_thumb_220-v1/87160190c18a.jpg",
-      "category": "Appliance",
-      "price": 13,
-      "description": " 31% OFF Xiaomi Mijia Portable Electric Lint Remover Clothes Hair Ball Fuzz Trimmer Fabric Sweater Dust Lint Remover Shaver Xiaomi Mijia Portable Electric Lint Remover Clothes Hair Ball",
-      "id": 21
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6878391336429613056/16445/goods_thumb_220-v1/42df6244aa8f.jpg",
-      "category": "Appliance",
-      "price": 37,
-      "description": "Original Xiaomi Mijia Faucet Water Purifier MUL11 Kitchen",
-      "id": 22
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/15916/goods_thumb_220-v5/2f8f156785d2.jpg",
-      "category": "Appliance",
-      "price": 269,
-      "description": "Mijia G1 Robot Vacuum Cleaner Wet Mopping Auto Sweeping Dust Sterilize 2200PA Cyclone Suction Smart Planned Map Mijia G1 Robot Vacuum Cleaner Wet Mopping Auto",
-      "id": 23
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6878391336429613056/16449/goods_thumb_220-v1/52934e8b185a.jpg",
-      "category": "Appliance",
-      "price": 82,
-      "description": "Xiaomi Mijia Smart Sterilization Humidifier S 4.5L UV-C Sterilization Air Purifier Aromatherapy Diffuser Essential Oil Mist Maker for Home Office Xiaomi Mijia Smart Sterilization Humidifier S 4.5L",
-      "id": 24
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/16045/goods_thumb_220-v5/697b9b9f3188.jpg",
-      "category": "Appliance",
-      "price": 136,
-      "description": "Global Version Midea MR03 MR04 Robot Smart Vacuum Cleaner Large Capacity Vacuum&Mop Map Navigation Powerful Suction Mopping MR04 Global Version Midea MR03 MR04 Robot Smart Vacuum",
-      "id": 25
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/15893/goods_thumb_220-v5/319c0020a728.jpg",
-      "category": "Appliance",
-      "price": 61,
-      "description": "Mijia Humidifier 4L Air Purifier Aromatherapy Humidificado",
-      "id": 26
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6878391336429613056/16534/goods_thumb_220-v1/d302ffadbdec.jpg",
-      "category": "Appliance",
-      "price": 37,
-      "description": "Xiaomi Mijia Desktop Fan Handheld 2 in 1 Super Sound-",
-      "id": 27
-    },
-    {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6771730315905003520/16399/goods_thumb_220-v1/86d38037d623.jpg",
-      "category": "Appliance",
-      "price": 34,
+      "image": "https://teja8.kuikr.com/i6/20230122/Physiotherapy-Equipments-VB201705171774173-ak_WBP251093267-1674375439.png",
+      "category": "Weighing Machine",
+      "price": 3400,
       "description": "XiaoMi YouPin Xiaoda UVC Smart Ultraviolet Sterilization Deodorizer Intelligent USB IPX4 UV Germicidal Lamp XiaoMi YouPin Xiaoda UVC Smart Ultraviolet Sterilization",
       "id": 28
     },
     {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6507287161137004544/16390/goods_thumb_220-v1/3d6bed609204.jpg",
-      "category": "Appliance",
-      "price": 36,
+      "image": "https://teja9.kuikr.com/i5/20230122/340l-excellent-condition-VB201705171774173-ak_LWBP1512851623-1674375359.png",
+      "category": "340Letre Freeze",
+      "price": 13000,
       "description": "Xiaomi MIUI Portable Electric Kettles Cup 400ml 220v Tea Coffee Travel Boil Water Keep Warm Smart Kitchen Appliances Winter Xiaomi MIUI Portable Electric Kettles Cup 400ml 220v Tea",
       "id": 29
     },
     {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/16106/goods_thumb_220-v3/61cd67edfc01.jpg",
-      "category": "Appliance",
+      "image": "https://teja9.kuikr.com/i4/20230122/Canon-DSLR-EOS-3000D-camera-with-55mm-Lens-with-bag-and-memory-card-for-sale-VB201705171774173-ak_LWBP1892036958-1674375224.jpeg",
+      "category": "Canon EOS DSLR",
       "price": 47,
       "description": "Lofans Wireless Ironing Machine Cordless Electric Iron",
       "id": 30
     },
     {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/15943/goods_thumb_220-v1/0b7860cacfbd.jpg",
-      "category": "Appliance",
-      "price": 359,
+      "image": "https://teja9.kuikr.com/i5/20230102/LG-Smart-TV-VB201705171774173-ak_WBP1854903310-1672680253.png",
+      "category": "LG Smart TV",
+      "price": 90000,
       "description": "Dreame V11 Handheld Wireless Vacuum Cleaner",
       "id": 31
     },
     {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6878391336429613056/16476/goods_thumb_220-v1/afb469094423.jpg",
-      "category": "Appliance",
-      "price": 48,
+      "image": "https://teja9.kuikr.com/i5/20230122/LG-420-Litre-Fridge-with-warranty-with-smart-inverter-compressor-VB201705171774173-ak_LWBP2025689554-1674374436.jpeg",
+      "category": "LG 420 Ltr Freeze",
+      "price": 15000,
       "description": "35% OFF Xiaomi Pinlo Mini Multifunctional Sandwich Machine Kitchen Breakfast Bread Maker Frying Egg Toaster Electric Ovens Hot Plates Bread Pancake Waffle Xiaomi Pinlo Mini Multifunctional Sandwich",
       "id": 32
     },
     {
-      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/16069/goods_thumb_220-v3/934fc8318fa7.jpg",
-      "category": "Appliance",
-      "price": 189,
+      "image": "https://teja9.kuikr.com/i5/20230122/fully-automatic-top-load-washing-machine-VB201705171774173-ak_LWBP1186813738-1674373377.jpeg",
+      "category": "LG Washing Machine",
+      "price": 10500,
       "description": "ILIFE V5sPro Robot Vacuum Cleaner Vacuum Wet Mopping",
       "id": 33
     },

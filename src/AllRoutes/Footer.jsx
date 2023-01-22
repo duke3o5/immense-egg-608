@@ -81,7 +81,7 @@ import {
             <Stack spacing={6}>
               <Box>
                 {/* <Logo color={useColorModeValue('gray.700', 'white')} /> */}
-                <img style={{width: '40%'}} src='https://www.linkpicture.com/q/InShot_20230119_121832513.jpg' alt='logo'/>
+                <img style={{width: '40%'}} src='https://i.postimg.cc/YCNCjszS/In-Shot-20230122-004547522.png' alt='logo'/>
               </Box>
               <Text fontSize={'sm'}>
                 © 2022 sellAtdoor. All rights reserved
