@@ -27,11 +27,17 @@ export default function Viewproduct() {
                 <Image className="imgDiv" src={PageDat.image} />
                 <div className="rigthDiv">
                     <Heading>{PageDat.title}</Heading>
+                    <hr/>
+                    <Text>Product Page Details</Text>
+                    <hr/>
                     <Text>{PageDat.category}</Text>
-                    <h3>{PageDat.price}</h3>
-
+                    <hr/>
+                    <h3>RS. {PageDat.price}</h3>
+                    <Button>Contact Seller</Button>
+                    <Button>Chat</Button>
                 </div>
             </div>
+            <hr/>
         </>
     )
 }
